@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://sandbox.swinkpay-fintech.com/mosv1"/>
+<parameter name="path" value="D:\chromedriver_win32 (11)\chromedriver.exe"></parameter>
+<parameter name="usrnumber" value="9972957992"></parameter>
+<parameter name="usrnamexpath" value=""></parameter>
+<parameter name="mpin" value="1111"></parameter>
+<parameter name="signinbtn" value=""></parameter>
+
+
+<test thread-count="1" name="Test">
+  
+  <classes>
+     <!-- <class name="tesngsuite.test2"/>-->
+    <!-- <class name="tesngsuite.Signintext"/>-->
+     <!--<class name="tesngsuite.usernametext"/>-->
+     <!--  <class name="tesngsuite.mpintextfield"/>-->
+     <!--<class name="tesngsuite.or_text"/>-->
+     <!--<class name="tesngsuite.signinwithotp_link_validation"/>-->
+     <!-- <class name="tesngsuite.forgetmpin_link_validation"/>-->
+     <!--<class name="tesngsuite.usernamelength_validation"/>-->
+     <!--<class name="tesngsuite.userinputvalidatation_alphabets"/>-->
+     <!--<class name="tesngsuite.websitelink"/>-->
+     <!-- <class name="tesngsuite.aboutuslink"/>-->
+     <!--<class name="tesngsuite.privacypolicy"/>-->
+     <!--<class name="tesngsuite.termsandconditions"/>-->
+     <!-- <class name="tesngsuite.contactus"/>-->
+     <!--<class name="tesngsuite.copyright"/>--> 
+     <!-- <class name="tesngsuite.login_image_display"/>-->
+     <!--<class name="tesngsuite.login_logo_compare"/>-->
+	 <!-- <class name="tesngsuite.loginbuttoncolor"/>-->
+     <!-- <class name="tesngsuite.Signinwithotp_login"/>-->
+     <!--<class name="tesngsuite.siginwith_wrong_otp"/>-->
+     <!--<class name="tesngsuite.siginwith_empty_otp"/>-->
+     <!-- <class name="tesngsuite.Resend_otp_alertmessage_validation"/>-->
+     </classes>
+     </test> <!-- Test -->
+  
+  <test thread-count="1" name="Test2">
+  <classes>
+ <!--<class name="siginwithotp.siginwithotptext_validation"/>-->
+ <!--<class name="siginwithotp.siginwithotpdescription"/>-->
+ <!--<class name="siginwithotp.enter_mpin_text_validation"/>-->
+ <!--<class name="siginwithotp.validate_mpin_textbox"/>-->
+ <!--<class name="siginwithotp.mpin_validation_for_sqlpayload"/>-->
+ <!--<class name="siginwithotp.mpin_validation_for_length"/>-->
+ <!-- <class name="siginwithotp.empty_mpin_validation"/>-->
+ <!-- <class name="siginwithotp.signinbtnvalidation"/>-->
+ <!--<class name="siginwithotp.signin_btn_textvalidation"/>-->
+  <!--<class name="siginwithotp.password_mask_validation"/>-->
+  </classes>
+  </test>
+  
+   <test thread-count="1" name="Test3">
+   <classes>
+ 
+    <!--<class name="forgetmpin.forget_mpin_link_validation"/>-->
+    <!--<class name="forgetmpin.forget_mpin_text_validation"/>-->
+    <!-- <class name="forgetmpin.navigation_to_set_mpin"/>-->
+    <!--<class name="forgetmpin.description_validation"/>-->
+    <!--<class name="forgetmpin.enter_mpin_text"/>-->
+    <!--<class name="forgetmpin.submitbtn_text_validation"/>-->
+    <!--<class name="forgetmpin.submitbtn_enabled_or_not"/>-->
+    <!--<class name="forgetmpin.set_new_mpin"/>-->
+    <!--<class name="forgetmpin.enter_mpin_in_setnew"/>-->
+    <!--<class name="forgetmpin.confirm_mpin_in_setnew"/>-->
+    <!--<class name="forgetmpin.description_in_swtnew"/>-->
+    <!--<class name="forgetmpin.resetmpin_btntext_in_setnew"/>-->
+    <!--<class name="forgetmpin.resetmpin_btnenabled_in_setnew"/>-->
+    <!-- <class name="forgetmpin.mandatoryfields_in_setnew"/>-->
+    <!-- <class name="forgetmpin.mpin_and_confirm_mpin_validation"/>-->
+    <!--<class name="excelreading.transactionreport"/>-->
+    <!--<class name="excelreading.reports_transaction"/>-->
+    <!-- <class name="excelreading.report_refund"/>-->
+    <!-- <class name="excelreading.Report_settlementlist"/>-->
+    <!-- <class name="excelreading.report_cashshortage"/>-->
+   <!--<class name="excelreading.reports_drodown"/>-->
+   <!--<class name="profile.profile_dropdown"></class>-->
+         
+   </classes>
+   </test>
+   
+   <test thread-count="1" name="Test4">
+   <classes>
+   <!--<class name="Transaction_list.Transactions_text"></class>-->
+  <!--<class name="Transaction_list.Transactionlist_columns"></class>
+  <!-<class name="sidemenu.sidemenu_transactionlist_text"></class>-->
+    <!--<class name="Transaction_list.Transactioncolumncount"></class>-->
+    <!--<class name="Transaction_list.durationbutton_validation"></class>-->
+    <class name="Transaction_list.duration_dropdownvalues"></class>
+  
+  
+   
+   </classes>
+   </test>
+  
+  
+</suite> <!-- Suite -->
+
+
+
+
+    

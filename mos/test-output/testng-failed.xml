@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="usrnumber" value="9972957992"/>
+  <parameter name="path" value="D:\chromedriver_win32 (11)\chromedriver.exe"/>
+  <parameter name="signinbtn" value=""/>
+  <parameter name="usrnamexpath" value=""/>
+  <parameter name="mpin" value="1111"/>
+  <parameter name="url" value="https://sandbox.swinkpay-fintech.com/mosv1"/>
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="Transaction_list.duration_dropdownvalues">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Transaction_list.duration_dropdownvalues -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
